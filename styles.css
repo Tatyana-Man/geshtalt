@@ -237,16 +237,15 @@
           
 
    .responsive-table td::before {
-    position: absolute;
-    top: 12px;
-    left: 12px;
-    width: 25%;
-    padding-right: 10px;
-    white-space: nowrap;
-    font-weight: 600;
-    color: #6a4c93;
-    content: attr(data-label);
-  }
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      width: 35%;
+      padding-right: 10px;
+      white-space: nowrap;
+      font-weight: bold;
+      content: attr(data-label);
+    }
 
           
   }
