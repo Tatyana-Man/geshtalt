@@ -229,7 +229,7 @@
 
 
     .responsive-table td {
-      
+      border-top: 1px solid #ccc;
       position: relative;
       padding-left: 5%;
       white-space: normal;
@@ -240,7 +240,7 @@
       position: absolute;
       top: 12px;
       left: 12px;
-      width: 50%;
+      width: calc(50% - 24px);
       padding-right: 10px;
       white-space: nowrap;
       font-weight: bold;
