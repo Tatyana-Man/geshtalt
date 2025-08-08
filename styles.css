@@ -219,33 +219,28 @@
     }
 
 
-
-  .responsive-table tr {
-    margin-bottom: 12px;
-    border: 1px solid #e0dfe5; /* светлая серая рамка */
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.03); /* лёгкая тень для разделения */
-    padding: 12px;
-}     
-
-
+   .responsive-table tr {
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 12px;
+      background: #fff;
+    }
 
 
     .responsive-table td {
-    border-top: 1px solid #f0eef5; /* бледная линия между полями */
-    padding-left: 45%;
-    position: relative;
-  }
+      border: none;
+      position: relative;
+      padding-left: 10%;
+      white-space: normal;
+    }
           
-
-
 
    .responsive-table td::before {
     position: absolute;
     top: 12px;
     left: 12px;
-    width: 35%;
+    width: 15%;
     padding-right: 10px;
     white-space: nowrap;
     font-weight: 600;
